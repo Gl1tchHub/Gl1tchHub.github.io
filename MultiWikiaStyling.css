@@ -1,6 +1,19 @@
 /*This CSS is used for multile wikia including Miner's Haven, War Games, and Azure Mines*/
 
 /*wikia stide menu styling*/
+.WikiaActivityModule {
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid #EEEEEE;
+}
+
+.module h2 {
+font-size: 18pt;
+font-family: Roboto;
+font-weight: 300;
+text-align: center;
+margin-bottom: 0px;
+padding-left: 0px;
+}
 
 /*Wikia Website Styling*/
 .mw-headline {
