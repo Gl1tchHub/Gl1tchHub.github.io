@@ -1,0 +1,151 @@
+/*This CSS is used for multile wikia including Miner's Haven, War Games, and Azure Mines*/
+
+/*Wikia Website Styling*/
+.mw-headline {
+    font-size:18pt;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: center;
+}
+
+.WikiaPageHeader {
+    font-family: Roboto;
+    font-weight: 300;
+    padding-bottom: 0em;
+}
+
+/*Navigation CSS*/
+.WikiHeader > nav li.marked > a {
+border-top: 0px solid transparent !important;
+}
+ 
+.WikiHeader li {
+background: transparent !important;
+}
+ 
+.WikiHeader li:hover {
+padding: -0.5em;
+background-color: rgba(0, 0, 0, 0.25) !important;
+border-top-left-radius: 2px !important;
+border-top-right-radius: 2px !important;
+border-bottom-left-radius: 2px !important;
+border-bottom-right-radius: 2px !important; 
+}
+ 
+.WikiHeader .navbackground {
+background: transparent;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+/*infobox styling*/
+.portable-infobox {
+    border-radius: 3px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: center;
+    padding: 0em;
+    box-shadow: 0px 2px 10px 1px #000000;
+    position: relative;
+    right: 10px;
+}
+
+ul.pi-image-collection-tabs li {
+border: 0px solid #000000;
+}
+
+ul.pi-image-collection-tabs li.current {
+font-weight: normal;
+}
+
+.portable-infobox .pi-title {
+    text-align:center;
+    font-family:Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 0px 3px 5px black;
+}
+
+.portable-infobox .pi-header {
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 0px 3px 10px black;
+}
+
+.portable-infobox .pi-data:not(:last-of-type) {
+     border-top: none !important;
+     border-bottom: none !important;
+     border-left: none !important;
+     border-right: none !important;
+}
+
+.portable-infobox .pi-group:not(:last-of-type) {
+     border-top: none !important;
+     border-bottom: none !important;
+     border-left: none !important;
+     border-right: none !important;
+}
+
+.portable-infobox .pi-group .pi-data:not(:last-of-type) {
+     border-top: none !important;
+     border-bottom: none !important;
+     border-left: none !important;
+     border-right: none !important;
+}
+
+/*Tabber styling (based off of Mac OS X Yosemite)*/
+ul.tabbernav li a {
+    border:none !important;
+    background: #ffffff !important;
+    font-family: Helvetica !important;
+    font-size: 12px !important;
+    color: #444444 !important;
+    font-weight: 300 !important;
+    margin:0 !important;
+    padding:2px 12px !important;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    font-size: 13px !important;
+    cursor:default;
+}
+ul.tabbernav li:first-child a {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+ul.tabbernav li:last-of-type a {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.tabberlive .tabbertab {
+    border: none !important;
+    border-radius: 3px !important;
+    background: rgba(0, 0, 0, 0.25) !important;
+    padding:10px 10px 5px 10px !important;
+}
+ul.tabbernav {
+    background: transparent;
+    border-bottom: 0 !important;
+    padding: 3px 0 !important;
+    text-align:center;
+    margin: 0 0 -10px 0 !important;
+}
+ul.tabbernav li a:active {
+    background: #f0f0f0 !important;
+}
+ul.tabbernav li.tabberactive a {
+    background:linear-gradient(#6FB3F4, #2687F7) !important;
+    color:white !important;
+}
+ul.tabbernav li.tabberactive a:active {
+    background:linear-gradient(#5198F6, #1D6EDD) !important;
+    color:white !important;
+}
+ 
+ 
+ 
+ 
+
