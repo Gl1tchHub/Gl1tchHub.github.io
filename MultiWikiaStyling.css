@@ -1,5 +1,9 @@
 /*This CSS is used for multile wikia including Miner's Haven, War Games, and Azure Mines*/
 
+audio {
+width: 250px;    
+}
+
 /*wikia side menu styling*/
 .WikiaActivityModule {
 background-color: rgba(0, 0, 0, 0);
@@ -13,6 +17,9 @@ font-weight: 300;
 text-align: center;
 margin-bottom: 0px;
 padding-left: 0px;
+border-bottom: 1px solid #EEEEEE;
+padding-bottom: 0.25em;
+margin-bottom: 0.25em;
 }
 
 .WikiaRail .Module {
@@ -139,6 +146,14 @@ font-weight: normal;
      border-bottom: none !important;
      border-left: none !important;
      border-right: none !important;
+}
+
+.pi-data-value:not(:first-child) {
+padding-left: 0px;
+}
+
+.portable-infobox .pi-item-spacing {
+padding: 5px;
 }
 
 /*Tabber styling (based off of Mac OS X Yosemite)*/
