@@ -1,0 +1,12 @@
+This is a changelog for the MultiWikiaStyling file maintaiend by TheWikiaEditMachine. link to the CSS file:
+http://Gl1tchHub.github.io/Gl1tchHub.github.io/MultiWikiaStyling.css
+
+August 1st, 2016
+- added styling for side menus (improved side menu titles, and fixed a typo which didn't make the update live earlier)
+- added additonal spacing styling for infoboxes. Also added HTML5 audio player styling for compatibility for infoboxes
+-- fixced length of audio player as there wasn't a scrollbar (I had CSS that would add it it but it also added scrollbars to other infobox
+rows so I didn't add it) and which also explains the infobox spacing changes to make the audio player position more comfortable
+- added wikia article text styling, this update includes spacing updates for article text to use less space (got rid of some excess space)
+
+July 31st 201 
+- wikia CSS moved to GitHub so one CSS file could be linked to multiple wikias
