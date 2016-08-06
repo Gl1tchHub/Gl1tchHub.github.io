@@ -102,6 +102,19 @@ border-top-right-radius: 5px;
 .WikiHeader > nav li.marked {
 border-bottom: 2px solid #EEEEEE
 }
+
+.WikiHeader > nav li {
+border-bottom: none;    
+}
+
+.WikiHeader li:hover {
+background-color: rgba(0, 0, 0, 0);
+}
+
+.WikiHeader > nav li.marked > a {
+border-top: 0px solid transparent !important;
+}
+
 /*infobox styling*/
 .portable-infobox {
     border-radius: 3px;
