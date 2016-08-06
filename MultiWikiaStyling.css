@@ -74,7 +74,6 @@ margin-top: 15px;
 
 /*Navigation Styling*/
 nav.WikiNav {
-background-color: #000000;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 }
@@ -91,12 +90,11 @@ width: 0%;
 }
 
 .WikiHeader .navbackground {
-background-color: #000000;
 border-left: none;
 border-right: none;
 border-bottom: none;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 
 .WikiHeader > nav li.marked {
@@ -113,15 +111,6 @@ border-bottom: none;
   
  .WikiHeader li {
  background: transparent !important;
- }
-  
- .WikiHeader li:hover {
- padding: -0.5em;
- background-color: rgba(0, 0, 0, 0.25) !important;
- border-top-left-radius: 2px !important;
- border-top-right-radius: 2px !important;
- border-bottom-left-radius: 2px !important;
- border-bottom-right-radius: 2px !important; 
  }
 
 /*infobox styling*/
