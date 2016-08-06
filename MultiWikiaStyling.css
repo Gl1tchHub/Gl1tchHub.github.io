@@ -123,10 +123,6 @@ border-bottom: none;
  border-bottom-left-radius: 2px !important;
  border-bottom-right-radius: 2px !important; 
  }
- 
-.WikiHeader .navbackground {
- background: transparent;
- }
 
 /*infobox styling*/
 .portable-infobox {
