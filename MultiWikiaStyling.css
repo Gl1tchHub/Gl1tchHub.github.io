@@ -124,14 +124,6 @@ border-bottom: none;
     right: 10px;
 }
 
-ul.pi-image-collection-tabs li {
-border: 0px solid #000000;
-}
-
-ul.pi-image-collection-tabs li.current {
-font-weight: normal;
-}
-
 .portable-infobox .pi-title {
     text-align:center;
     font-family:Roboto;
@@ -153,6 +145,25 @@ padding: 3px;
 
 .pi-border-color {
 border-color: rgba(0, 0, 0, 0);    
+}
+
+li.pi-tab-link.pi-item-spacing {
+padding: 5px 10px
+
+.portable-infobox.pi-theme-Premium ul.pi-image-collection-tabs li.current {
+background-color: none;
+}
+
+ul.pi-image-collection-tabs li {
+border: 0px solid #000000;
+}
+
+ul.pi-image-collection-tabs li.current {
+font-weight: normal;
+}
+
+ul.pi-image-collection-tabs li.current {
+border-bottom: 2px solid #EEEEEE
 }
 
 /*Tabber styling (based off of Mac OS X Yosemite)*/
