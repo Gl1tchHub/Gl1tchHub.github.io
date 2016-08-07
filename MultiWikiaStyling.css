@@ -147,33 +147,12 @@ font-weight: normal;
     text-shadow: 0px 3px 10px black;
 }
 
-.portable-infobox .pi-data:not(:last-of-type) {
-     border-top: none !important;
-     border-bottom: none !important;
-     border-left: none !important;
-     border-right: none !important;
-}
-
-.portable-infobox .pi-group:not(:last-of-type) {
-     border-top: none !important;
-     border-bottom: none !important;
-     border-left: none !important;
-     border-right: none !important;
-}
-
-.portable-infobox .pi-group .pi-data:not(:last-of-type) {
-     border-top: none !important;
-     border-bottom: none !important;
-     border-left: none !important;
-     border-right: none !important;
-}
-
-.pi-data-value:not(:first-child) {
-padding-left: 0px;
-}
-
 .portable-infobox .pi-item-spacing {
-padding: 5px;
+padding: 2px;
+}
+
+.pi-border-color {
+border-color: rgba(0, 0, 0, 0);    
 }
 
 /*Tabber styling (based off of Mac OS X Yosemite)*/
