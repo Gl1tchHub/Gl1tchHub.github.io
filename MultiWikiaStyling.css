@@ -6,6 +6,38 @@ audio {
 width: 250px;    
 }
 
+/*Home Page Styling*/
+.hp-Heading {
+display:flex;
+text-align: center;
+align-items: center;
+cursor: pointer;
+font-size: 18pt;
+font-weight: 300;
+border-radius: 3px;
+box-shadow: 0px 5px 10px -3px #000000;
+margin: 5px;
+}
+ 
+.hp-Heading div {
+flex: 1;
+}
+ 
+#Header1:hover, #Header2:hover, #Header3:hover, #Header4:hover, #Header5:hover, #Header6:hover, #Header7:hover, #Header8:hover {
+border-bottom: 3px solid #EEEEEE;
+background-color: rgba(21, 21, 21, 0.2);
+}
+ 
+.hp-selected {
+border-bottom: 3px solid #EEEEEE;
+}
+ 
+#Header1, #Header2, #Header3, #Header4, #Header5, #Header6, #Header7, #Header8 {
+transition: all,0.2s,ease-in-out;
+text-align: center;
+padding: 10px;
+}
+
 /*wikia side menu styling*/
 .WikiaActivityModule {
 background-color: rgba(0, 0, 0, 0);
