@@ -32,6 +32,7 @@ text-align: center;
 .TWEMHeading3, .WikiaRail .module h2, .portable-infobox .pi-header  {
 font-family: Roboto;
 font-size: 16pt;
+font-weight: 300;
 text-align: center;
 }
 
