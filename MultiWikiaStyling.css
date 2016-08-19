@@ -6,14 +6,40 @@ audio {
 width: 250px;    
 }
 
+/*TheWikiaEditMachine's custom class CSS*/
+.TWEMHeading {
+font-family: Roboto;
+font-size: 24pt;
+font-weight: 300;
+text-align: center;
+}
+
+.TWEMHeadingLine {
+font-family: Roboto;
+font-size: 24pt;
+font-weight: 300;
+text-align: center;
+border-bottom: 1px solid #EEEEEE;
+}
+
+.TWEMHeading2, .hp-Heading, .mw-headline {
+font-family: Roboto;
+font-size: 18pt;
+font-weight: 300;
+text-align: center;
+}
+
+.TWEMHeading3, .WikiaRail .module h2, .portable-infobox .pi-header  {
+font-family: Roboto;
+font-size: 16pt;
+text-align: center;
+}
+
 /*Home Page Styling*/
 .hp-Heading {
 display:flex;
-text-align: center;
 align-items: center;
 cursor: pointer;
-font-size: 18pt;
-font-weight: 300;
 border-radius: 3px;
 box-shadow: 0px 5px 10px -3px #000000;
 margin: 5px;
@@ -45,10 +71,6 @@ border: 1px solid #EEEEEE;
 }
 
 .WikiaRail .module h2 {
-font-size: 16pt;
-font-family: Roboto;
-font-weight: 300;
-text-align: center;
 margin-bottom: 0px;
 padding-left: 0px;
 border-bottom: 1px solid #EEEEEE;
@@ -67,12 +89,6 @@ margin-top: 15px;
 } 
 
 /*Wikia Website Styling*/
-.mw-headline {
-    font-size:18pt;
-    font-family: Roboto;
-    font-weight: 300;
-    text-align: center;
-}
 
 .WikiaPageHeader {
     font-family: Roboto;
@@ -164,8 +180,6 @@ border-bottom: none;
 }
 
 .portable-infobox .pi-header {
-    font-size: 16px;
-    text-align: center;
     font-weight: normal;
     text-shadow: 0px 3px 10px black;
 }
@@ -197,7 +211,7 @@ font-weight: normal;
 border-bottom: 2px solid #EEEEEE
 }
 
-/*Tabber styling (based off of Mac OS X Yosemite)*/
+/*Tabber styling (based off of Mac OS X Yosemite) SOON BEING DELETED*/
 ul.tabbernav li a {
     border:none !important;
     background: #ffffff !important;
