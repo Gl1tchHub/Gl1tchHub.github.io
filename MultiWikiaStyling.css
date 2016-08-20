@@ -2,6 +2,12 @@
 /*This CSS is used for multile wikia including Miner's Haven, War Games, and Azure Mines*/
 /*a changelog for CSS updates is coming soon*/
 
+/*font imports*/
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+/*Styling for HTML audio player*/
 audio {
 width: 250px;    
 }
