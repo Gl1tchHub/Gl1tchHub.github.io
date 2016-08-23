@@ -12,6 +12,12 @@ audio {
 width: 250px;    
 }
 
+/*styling for JS Time widget Extensions*/
+a#DisplayClockJS {
+font-family: Roboto;
+font-size: 12pt;
+}
+
 /*TheWikiaEditMachine's custom class CSS*/
 .TWEMHeading {
 font-family: Roboto;
@@ -90,11 +96,13 @@ padding-left: 0px;
 border-bottom: 1px solid #EEEEEE;
 padding-bottom: 0.25em;
 margin-bottom: 0.25em;
+margin-left: -10px;
+margin-right: -10px;
 }
 
 .WikiaRail .Module {
 margin: 5px;
-padding:10px
+padding: 20px 20px 15px;
 background-color: none;
 }
 
