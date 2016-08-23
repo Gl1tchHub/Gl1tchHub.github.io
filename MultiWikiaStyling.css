@@ -110,8 +110,11 @@ background-color: none;
 margin-top: 15px;
 } 
 
-/*Wikia Website Styling*/
+.ChatModule h2.chat-headline span {
+margin-left: 5px;
+}
 
+/*Wikia Website Styling*/
 .WikiaPageHeader {
     font-family: Roboto;
     font-weight: 300;
