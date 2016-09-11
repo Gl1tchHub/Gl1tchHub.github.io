@@ -88,7 +88,7 @@ $(document).ready(function(){
     });
 
 
-$(".TWEMHeader").click(function(){
-$(".TWEMHeader").attr('id').parent().children().css("display", "none");
-$(".TWEMHeader").attr('id').css("display", "block");
+var dankMemes = $(".TWEMHeader").click(function(){
+dankMemes.attr('id').parent().children().css("display", "none");
+dankMemes.attr('id').css("display", "block");
 });
