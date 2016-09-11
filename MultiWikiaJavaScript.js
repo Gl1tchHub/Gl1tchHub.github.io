@@ -86,3 +86,9 @@ $(document).ready(function(){
         $("#Header9").addClass("hp-selected");
         $("#Header8").removeClass("hp-selected");
     });
+
+
+$(".TWEMHeader").click(function(){
+$(".TWEMHeader").attr('id').parent().children().css("display", "none");
+$(".TWEMHeader").attr('id').css("display", "block");
+});
