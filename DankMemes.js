@@ -11,5 +11,5 @@ $("#WikiaRailWrapper").prepend("NOICE")
 });
 
 $( document ).ready(function() {
-$("#WikiHeader").append("<div style="color:#EEEEEE;background-color:#000000;text-align">Follow Berezaa on Twitter @Berezagames</div>");
+$("#WikiHeader").append("<div style="color:#EEEEEE;background-color:#000000;text-align:center;">Follow Berezaa on Twitter @Berezagames</div>");
 });
