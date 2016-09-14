@@ -1,8 +1,11 @@
+var twitchChannels = ["gamestop", "roblox"]
+
 window.setInterval(function(){
-$.getJSON("https://api.twitch.tv/kraken/streams/" + "evanbear1", function(channel) {
+$.getJSON("https://api.twitch.tv/kraken/streams/" + twitchChannels, function(channel) {
    if (channel["stream"] == null) {
-$("#WikiaRailWrapper").prepend("Fuck")
+
    } else {
+$("#WikiaRailWrapper").prepend(twitchChannels + "is live!")
    }
 });
 }, 5000);
