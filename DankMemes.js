@@ -5,7 +5,7 @@ $.getJSON("https://api.twitch.tv/kraken/streams/" + twitchChannels, function(cha
    if (channel["stream"] == null) {
 
    } else {
-$("#WikiaRailWrapper").prepend(twitchChannels + "is live!")
+$("#WikiaRailWrapper").prepend(<div>twitchChannels + "is live!"</div>)
    }
 });
 }, 5000);
